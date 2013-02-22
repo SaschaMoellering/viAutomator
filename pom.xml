@@ -1,0 +1,43 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+    <artifactId>viAutomator-service</artifactId>
+    <groupId>com.zanox.coreservice.vmware</groupId>
+    <packaging>pom</packaging>
+
+    <name>viAutomator Service</name>
+    <version>1.0.0.0-SNAPSHOT</version>
+    <inceptionYear>2013</inceptionYear>
+    <description>Zanox VMWare Service is a service to create VMWare-images on the Zanox-ESX-cluster</description>
+    <url>https://github.com/zanox/vmware-service</url>
+
+    <scm>
+        <url>scm:git:git@github.com:zanox/viAutomator.git</url>
+        <connection>scm:git:git@github.com:zanox/viAutomator.git</connection>
+        <developerConnection>scm:git:git@github.com:zanox/viAutomator.git</developerConnection>
+    </scm>
+
+    <licenses>
+        <license>
+            <name>The Apache Software License, Version 2.0</name>
+            <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+
+    <developers>
+        <developer>
+            <name>Sascha Möllering</name>
+            <email>sascha.moellering@zanox.com</email>
+        </developer>
+    </developers>
+
+    <modules>
+        <module>viAutomator-service-core</module>
+        <module>viAutomator-service-ear</module>
+    </modules>
+
+    <properties>
+        <jboss.version>5.1.2</jboss.version>
+    </properties>
+</project>
